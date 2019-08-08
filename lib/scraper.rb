@@ -18,6 +18,7 @@ class Scraper
         puts "  Description: #{course.description}"
       end
     end
+    Scraper.new.get_page
   end
   
 end
